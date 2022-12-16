@@ -1,0 +1,47 @@
+#start-box {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+
+    transition-property: background-color, visibility;
+    transition-duration: 1500ms;
+    transition-timing-function: linear;
+}
+
+#font-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: linear;
+    transition-delay: 1700ms;
+}
+
+#text {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#text1 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 3700ms;
+}
