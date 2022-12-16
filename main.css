@@ -16,7 +16,7 @@
 #font-box {
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -50%);
 
     transition-property: all;
@@ -45,3 +45,5 @@
     transition-timing-function: linear;
     transition-delay: 3700ms;
 }
+
+
