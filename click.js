@@ -9,6 +9,7 @@ startButton.onclick = function(event) {
 
     fontBox.style.transform = 'translate(-50%, 40%)';
     mader.style.color = 'white';
+    const test = 0;
 };
 
 //test
