@@ -31,6 +31,10 @@
     font-size: 60px;
     text-align: center;
     margin-bottom: 20px;
+
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: linear;
 }
 
 #text1 {
@@ -41,9 +45,14 @@
     margin-top: 0;
 
     transition-property: all;
-    transition-duration: 500ms;
+    transition-duration: 1000ms;
     transition-timing-function: linear;
-    transition-delay: 3700ms;
 }
 
-
+#title {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
