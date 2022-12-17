@@ -6,4 +6,3 @@ images[2] = '/images/003.png';
 
 var index = 0;
 
- 

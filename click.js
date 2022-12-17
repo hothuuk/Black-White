@@ -25,5 +25,5 @@ startButton.onclick = function(event) {
 
     setTimeout(function(){
         location.href = 'choose.html';
-    }, 6800);
+    }, 7500);
 };
